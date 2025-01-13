@@ -1,0 +1,28 @@
+Git
+Version contol system is a tools that help to track changes in code
+Git is a version control system .It is 
+popular 
+free and open sources 
+fast and scalable
+
+Github is website that allows developers to store and manage their code using Git.
+Github me folder ko repository bolte hai.
+
+How to configuring Git
+1.git config --global user.name "My Nmae"
+2.git config --global user.email"abcd@gmail.com"
+3.git config --list
+
+GITHUB COMMANDS:
+
+1.Clone- Clonming a repository on our local machine
+         git clone <-some link->
+
+2.Status- displays the state of the code
+        git Status   
+
+3.cd command - Change Directory     
+
+4. ls command - to see file and folder.
+
+5. ls-a command - to see hidden file
