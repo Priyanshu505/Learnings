@@ -1,0 +1,7 @@
+CSS Position Property 
+The position property specifies the type of positioning method used for an element
+
+ 1.Static
+ 2.Relative- 
+ 3.Absolute
+ 4.Sticky
