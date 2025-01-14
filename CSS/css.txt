@@ -1,0 +1,70 @@
+CSS - Cascading Style Sheet
+It is used for appearance,styling and formatting.
+
+SELECTORS IN CSS:
+It is a way of selecting an elements.
+           a{
+            color : #02b3e4;
+           }
+           a= SELECTORS
+           color= property
+           #02b3e4= value
+
+1.Simple Selector
+       1.Element Selector           
+       2.Class Selector- CSS is not limited to selecting elements by tag name.HTML elements can have more than just a tag name:they can also have attributes.
+                         One commmon attribute is the class attibutre.It's also possible to selcet an elemnts by its class attributes.
+
+                         To select an HTML element by its class using css,a period (.) must be prepended to the class's name.  
+       3.ID Selector-  For situation where you need more specificity in styling ,you may also selcet elements for css using an id attribute.You 
+                       can have different ids associated with a class (although a class is not required).
+
+                       The id attribute can be added to an element ,along with the class attribute. On the CSS side ,the definition is made by using #to represent 
+                       an id, the same way .is used for class.
+
+2.Pseudo-class Selector- A css Pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s).
+                         For example,: hover can be used to chnage a button's color when the user's pointer hover over it.
+
+3.Multiple Selector-  What if we want to add some styles to all our headings? We don't want to have redundant rules, since that would eventually become a nightmare to maintain 
+                      and is not scalable at all.
+
+                       Instead, we can select multiple HTML elements in the same CSS rule by separating them with commas.
+
+                       Copying and pasting code is usually a bad idea for web developers and multiple selectors can help reduce that kind of behavior quite a bit.
+
+
+   HOW TO ADD STYLING TO HTML?
+      1.Inline- we use the css in same line.
+      2.Internal - we use style tag.
+      3.External-When HTML and CSS code are in separate files,the files must be linked.Otherwise,the HTML file won't be able to locate the CSS code,and the styling
+                 will not be applied.
+
+                 You can use the <link> element to link HTML and CSS files together.The <link> elements must be placed within the head of the HTML file.          
+
+
+SPECIFICITY(HIGHER TO LOWER )
+
+Style Attribute > ID > Class > elements
+
+BOX MODEL IN CSS:
+
+1.The box model is the basic building block of CSS.
+2.According to box model concept,every element on a page is a rectangular box and may have width,height,padding,borders and margins.  
+
+
+COLORS in CSS
+Colors in CSS can be specified by the following methods:
+   1.Hexadecimal Colors- A hexadecimal color is specified with : #RRGGBB,where the RR(red),GG(green) and BB(blue) hexadecimal integers specify the 
+                         companents of the color.All values must be between 00 and FF.
+                         For example , the #ooooff value is renderd as blue, because the blue companent is set to its highest value (ff) and others are set to oo.
+
+   2.RGB Colors- An RGB color value is specified with the rgb() function ,which has the following syntax: rgb(red,green,blue)
+                 Each parameter (red,green and blue) defines the intensity of the color and can be an integr between o and 255 or a percentage value(from o% to 100%).
+
+   3.Predefined/Cross-browseer color names-140 color names are predicted in the HTML and CSS color specification.
+   4.RGBA Colors
+   5.HSL Colors
+   6.HSLA Colors
+
+
+   
