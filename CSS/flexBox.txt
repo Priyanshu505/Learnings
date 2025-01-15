@@ -1,0 +1,53 @@
+CSS FlexBox
+Flexbox is a great way to get more flexibility in your layouts and to simplify responsive layout design.It makes it easy to align elements on a 2D plane and is preety easy to use once you get familiar with the main properties.
+
+The first step is to set display:flex on a "container" element.The "children" to the flex container become flex items.A set pf properties can be applied to flex containers,and have an effect on the targeted items.Flex items can in turn also be flex containers for the elements it contains,making it easy to create complex layouts. 
+
+Properties of Flex container
+ 1.display:flex- to change into flex
+
+ 2.flex-direction- to change the direction flex.
+                   It has row ,row-reverse,columnand column-reverse.
+
+ 3.flex-wrap- It is used in the conjuction with the flex container to contol how the flex items are laid out when there is not enough space on a single line.
+ syntax= flex-wrap: nowrap|wrap|wrap-reveerse
+
+ 4.flex-flow-It is a shorthand property for setting both the flex-direction and flex-wrap properties at the same time.
+ syntax= flex-flow:<flex-direction><flex-wrap>;
+
+ 5.Justify-content-It is used to align and distribute flex items along the main axis within a flex container.It controls the spacing between items,how they are positioned ,and how extra space is distributed.
+ syntax= justify-content:flex-start,flex-end,center,space-between,space-aroundand space-evenly.
+
+ 6.Align-items - It is used to align flex items along the Cross axis(the axis perpendicular to the main axis) within a  flex container.
+ Syntax= align-items:<value>
+
+ 7.Gap - It is used to control the spacing between items in the flex container.
+ Syntax=gap:<value>
+
+ 8.Align-content-It is used to control the alignment of multiple lines of flex items along the cross axis.
+ Syntax:align-content:<value>
+
+
+ Flex-items Properties:
+ The direct child elements of a flex container automatically becomes flexible (flex) items. 
+
+  1.Order- It is used to control the order in which flex items appear within a flex container,regardless of their order in the HTML structure.BY default,all flex items have an order value of 0.When you modify the order property,you can visually rearrange the items without changing the underlying HTML.
+  Syntax:order:<integr>
+
+  2.Flex-grow- It is used to control how flex items grow relative to each other when there is extra space available in a flex container.It defines the proportional growth factor of each flex item in relation to the other items in container.0
+  Syntax: flex-grow:<number>;
+
+  3.Flex-shrink- It is used to control how much a flex item will shrink relative to the other items in a flex container when there is not enough space in the container .
+  Syntax: flex-shrink:<value>
+
+  4.Flex-basics- It specifies the initial size of a flex item before any space distribution occurs(before considering the effects of flex-grow and flex-shrink).It sets the starting point for the size of a flex item along the main axis.
+  
+ 5. Flex- The flex property is a shorthand in Flexbox that combines three properties into one:
+  1.flex-grow
+  2.flex-shrink
+  3.flex-basic 
+  It allows you to set the flexibility of a flex in a simpler way.
+
+Syntax: flex :<flex-grow> <flex-shrink> <flex-basics>
+
+6.Align-self- This property in Flexbox allows you to override the alignment of a specific flex item along cross axis(perpendicular to main axis) within a flex container.
