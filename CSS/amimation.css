@@ -1,0 +1,47 @@
+.container {
+  height: 215px;
+  width: 100%;
+  border: 2px solid red;
+  background-color: yellow;
+}
+.box {
+  height: 212px;
+  width: 212px;
+  border: 2px solid green;
+  background-color: aqua;
+
+  animation-name: apple;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-delay: 1s;
+  animation-direction: normal;
+}
+
+/*@keyframes apple {
+  from {
+    width: 212px;
+  }
+
+  to {
+    width: 100%;
+  }
+}*/
+@keyframes apple {
+  0% {
+    width: 212px;
+    background-color: aqua;
+  }
+  30% {
+    width: 35%;
+    background-color: blue;
+  }
+  65% {
+    width: 70%;
+    background-color: brown;
+  }
+  100% {
+    width: 100%;
+    background-color: blueviolet;
+  }
+}
