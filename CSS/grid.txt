@@ -1,0 +1,8 @@
+CSS GRID-
+A grid ia a collection of horizontal and vertical lines creating a pattern against which we can line up our design elements.They help us to create layouts in which our elements won't jump around or change widths as we move from page to page,providing greater consistency on our websites.
+
+
+1.CSS Grid Layout is a two dimensional layout system for the web.
+2.It lets you lay content out in rows and columns .
+3.It has many features that make building complex layout straightforward.
+4.A grid will typically have columns ,rows and then gaps betweeen each row and column.The gaps are commonly referred to as gutters. 
