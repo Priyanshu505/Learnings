@@ -2,7 +2,69 @@ CSS GRID-
 A grid ia a collection of horizontal and vertical lines creating a pattern against which we can line up our design elements.They help us to create layouts in which our elements won't jump around or change widths as we move from page to page,providing greater consistency on our websites.
 
 
-1.CSS Grid Layout is a two dimensional layout system for the web.
-2.It lets you lay content out in rows and columns .
-3.It has many features that make building complex layout straightforward.
-4.A grid will typically have columns ,rows and then gaps betweeen each row and column.The gaps are commonly referred to as gutters. 
+CSS Grid Layout is a two dimensional layout system for the web.
+It lets you lay content out in rows and columns .
+It has many features that make building complex layout straightforward.
+A grid will typically have columns ,rows and then gaps betweeen each row and column.The gaps are commonly referred to as gutters. 
+
+
+1.Grid-template-rows=It is used to add rows to the grid.
+
+2.Grid-template-columns=It is used to add columns to the grid.
+
+3.grid-gap= It is used to give gap betwwen the grid items.
+
+4.grid-column-start=It is used to extend the column.
+  grid-column-end= It is place where extended column ended.
+  EX:grid-column-start:2;
+     grid-column-end:4;
+
+     2 and 4 is a line number. 
+
+5.grid-row-start=It is used to extend the rows.
+  grid-row-end=It is a place where extended rows ended.
+
+6.Grid-area-
+The grid-area property specifies a particular area or set of rows and columns that a grid item occupies.It is applied to the grid item itself with CSS.
+ex=grid-area:1/1/3/2
+      where 1=grs ,1=gcs, 3=gre and 2=gce
+
+
+7.Grid-template-area:
+It is a property used to name the rows and columns of a grid and to set its layout.
+In copy.
+
+
+Advanced Grid Concepts:
+
+1.Fr unit-This unit is used to equal size of rows and column to grid.
+   gtc:1fr 1fr 1fr;
+   gtc:Repeat(3,1fr);
+
+2.Repeat function
+3.Grid-auto-rows:minmax()= grid-auto-rows:minmax(100px,auto);
+
+
+Grid Properties:
+
+1.Justify-content:
+        Justify-content:start; sara ka sara content horizontal axis se saat ke left side ma place ho jata hai.
+        Justify-content:end; srar ka sara content horizontalaxis se lag ke right me place ho jata hai.
+        Justify-content:center; sara ka sara content center me aaa jayga.
+        Justify-content:space-betwwen;content ke bich me space aaa jayaga.
+        Justify-content:space-around; har block ke left right me space aaa jayga.
+        Justify-content:space-evenly;har block ke bich me equal space hoga.
+
+2.Align-items: vertica axis(khada hai) usse lag ke content place ho jata hai.
+
+
+Media Queries:
+ 
+ 1.Viewport- the area of thewindow in which web content can be seen.We use the dimensions of the viewport (usually the width,but sometimes the height) as the basics of our media queries.
+
+ 2.Media queries are used to set different style rules for diffeerent devices or siezed screen.We use breakpoints to set the condition of a media query.The logic is :@media(feature:value)
+
+ 3.Essentially,media query breakpoints are pixel values that a developer can define in css.When a responsive website reaches those pixel values,a transformation (such as the one detailed above) occurs so that the website offers an optimal user experience.
+        
+      Nested Grid-
+      Nesting CSS grid is simple and can be done simply by using the display:grid rule for both parent and child element.          
